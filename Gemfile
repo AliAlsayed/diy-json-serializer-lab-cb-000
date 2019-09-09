@@ -20,7 +20,7 @@ group :development, :test do
   gem "pry-byebug"
   gem "rspec-rails"
   gem 'faker'
-  #gem 'shoulda'
+  gem 'shoulda'
   gem 'poltergeist'
 end
 
