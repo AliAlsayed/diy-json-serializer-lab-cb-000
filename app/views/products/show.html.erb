@@ -9,7 +9,7 @@
       $getJSON("/products/" + nextId + "/body", function(data){
         $(".productName").text(data["name"]);
         $(".js-next").attr("data-id", data["id"]);
-      })
-    })
-  })
+      });
+    });
+  });
 </script>
